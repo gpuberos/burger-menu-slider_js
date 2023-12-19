@@ -80,7 +80,6 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(-50% -50%);
     object-fit: cover;
 }
 
@@ -92,7 +91,7 @@ header {
     top: 50%;
     transform: translateY(-50%);
     border: none;
-    background-color: #bbbbbb;
+    background-color: #bbb;
     font-size: 1rem;
     color: #1a1a1a;
     cursor: pointer;
