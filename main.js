@@ -2,7 +2,7 @@
   BURGER MENU
   ========================================================================== */
 // Définir btn comme élément du DOM avec la class "burger"
-const btn = document.querySelector('.burger');
+const btnBurger = document.querySelector('.btn-burger');
 // Définir navbar comme élément du DIM avec la class "navbar"
 const navbar = document.querySelector('.navbar');
 
@@ -16,7 +16,7 @@ function toggleNavbar() {
 }
 
 // Lorsqu'on clique sur le bouton burger exécuter toggleNavbar
-btn.addEventListener('click', toggleNavbar);
+btnBurger.addEventListener('click', toggleNavbar);
 
 /* ==========================================================================
   SLIDER

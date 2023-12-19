@@ -47,7 +47,7 @@ header {
     background-color: #eee; 
 }
 
-.burger {
+.btn-burger {
     position: absolute;
     z-index: 5;
     top: 2rem;
